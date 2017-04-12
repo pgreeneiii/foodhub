@@ -32,24 +32,47 @@
 </head>
 
 <body>
-   <div class="container">
+   <nav class = "navbar navbar-default navbar-fixed-top">
+      <!-- Navbar Container -->
+      <div class="container">
 
+         <!-- Row 0: Navbar -->
+         <div class="row">
+            <div class="col-xs-12">
+                <!-- Brand and toggle get grouped for better mobile display -->
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="https://www.google.com">
+                     FOODHUB
+                  </a>
+               </div> <!-- ./Navbar Header -->
+               <!-- Collect the nav links, forms, and other content for toggling -->
+                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                     <ul class="nav navbar-nav navbar-right">
+                       <li>
+                          <a href="https://www.google.com">
+                             Sign In
+                          </a>
+                       </li>
+                       <li>
+                          <a href="https://www.google.com">
+                            <i class="fa fa-shopping-bag fa-lg"></i>
+                         </a>
+                       </li>
+                     </ul>
+                   </div><!-- /.navbar-collapse -->
+            </div>
+         </div> <!-- ./Row 0 -->
+      </div> <!-- ./Navbar Container-->
+   </nav>
 
-      <!-- Row 0: Navbar -->
-      <div class="row">
-         <div class="col-xs-12">
-            <a href="https://www.google.com" class="navbar-brand">
-               FOODHUB
-            </a>
-            <a href="https://www.google.com">
-               Sign In
-            </a>
-            <a href="https://www.google.com">
-               <i class="fa fa-shopping-bag fa-lg"></i>
-            </a>
-         </div>
-      </div> <!-- ./Row 0 -->
-
+   <!-- Main Content Container -->
+   <div class = "container">
 
       <!-- Row 1: Find Food Form -->
       <div class="row">
@@ -306,7 +329,7 @@
             </ul>
          </div>
       </div> <!-- ./Row 10 -->
-      
+
    </div> <!-- ./Container -->
 </body>
 </html>
